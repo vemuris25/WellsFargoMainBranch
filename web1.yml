@@ -1,3 +1,4 @@
 - hosts: all
   tasks:
    - package: "name=httd state=present"
+   - service: "name=httd state=started"
